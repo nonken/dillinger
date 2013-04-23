@@ -3,11 +3,11 @@
     <div class="container-fluid">
       <a class="brand" href="#">Dillinger</a>
       <ul class="nav" role="navigation">
-        
+
         <li class="dropdown">
           <%- include dropbox %>
         </li>
-        
+
         <li class="dropdown">
           <%- include github %>
         </li>
@@ -28,6 +28,7 @@
           <ul class="dropdown-menu" role="menu" aria-labelledby="drop5">
             <li><a tabindex="-1" href="#" id="export_md"><i class="icon-download"></i>&nbsp;Export as Markdown File</a></li>
             <li><a tabindex="-1" href="#" id="export_html"><i class="icon-download"></i>&nbsp;Export as HTML File</a></li>
+            <li><a tabindex="-1" href="#" id="toggle_html"><i class="icon-file"></i>&nbsp;Toggle HTML source</a></li>
             <li><a tabindex="-1" href="#" id="reset"><i class="icon-refresh"></i>&nbsp;Reset Current Profile</a></li>
             <li><a tabindex="-1" href="#" id="autosave"><i class="icon-remove"></i>&nbsp;Disable Autosave</a></li>
             <li><a tabindex="-1" href="#" id="preferences"><i class="icon-cog"></i>&nbsp;Preferences</a></li>
@@ -68,7 +69,7 @@
           </ul>
         </li>
       </ul>
-      
+
     </div>
   </div>
 </div>
